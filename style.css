@@ -1,0 +1,198 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*{
+    margin:0;
+    padding:0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 0.938em;
+}
+.column {
+    margin-left: -0.938em;
+    margin-right: -0.938em;
+}
+,column .row {
+    padding: 0 0.938em;
+}
+.flexwrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+.flexcenter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.flexitem {
+    display: flex;
+    align-items: center;
+}
+.flexcol {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+.main-links a:hover {
+    color: var(--secondary-color);
+}
+
+.second-links a:hover {
+    color: var(--light-text-color);
+}
+
+.icon-small, .icon-large {
+    display: flex;
+    align-items: center;
+    padding: 0 0.25em;
+    font-weight: normal;
+}
+.icon-small {
+    font-size: 1.25em;
+    margin: auto;
+}
+.icon-large {
+    font-size: 1.75em;
+    padding: 0 0.75em 0 0;
+}
+
+
+/*01 Header */
+header li > a {
+    display: flex;
+    position: relative;
+    line-height: inherit;
+}
+/* 01. HEADER A> HEADER TOP */
+.header-top .wrapper {
+    font-size: var(--font-small);
+    font-weight: var(--fw3);
+    justify-content: space-between;
+    line-height: 42px;
+}
+.header-top .wrapper ul {
+    gap: 2em;
+}
+.header-top .wrapper li {
+    position: relative;
+}
+.header-top ul ul {
+    position: absolute;
+    left: -1em;
+    line-height: 2cm;
+    background-color: var(--white-color);
+    border: 1px solid var(--border-clor);
+    z-index: 1;
+    display: none;
+}
+.header-top .right ul ul li a {
+    padding: 025em 1em;
+}
+.header-top .right ul ul li.current a {
+    background-color: var(--border-clor);
+
+}
+.header-top li:hover ul {
+    display: block;
+} 
